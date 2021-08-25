@@ -10,7 +10,7 @@ sin1=(math.sin(math.radians(float(input("Input sin1 angle here: \n")))))
 
 print(sin1)
 
-n=(float(input("Input n1 here: \n")))
+n1=(float(input("Input n1 here: \n")))
 
 total1=n1*sin1
 
