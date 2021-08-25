@@ -2,16 +2,33 @@
 
 import math
 
-n:float
+n1:float
 
-sin:float
+sin1:float
 
-sin=(math.sin(math.radians(float(input("Input sin angle here: \n")))))
+sin1=(math.sin(math.radians(float(input("Input sin1 angle here: \n")))))
 
-print(sin)
+print(sin1)
 
-n=(float(input("Input n here: \n")))
+n=(float(input("Input n1 here: \n")))
 
-total=n*sin
+total1=n1*sin1
 
-print("The angle of refraction is: \n", total)
+print("The first angle of refraction is: \n", total1)
+
+n2:float
+
+sin2:float
+
+sin2=(math.sin(math.radians(float(input("Input sin2 angle here: \n")))))
+
+print(sin2)
+
+n2=(float(input("Input n2 here: \n")))
+
+total2=n2*sin2
+
+print("The second angle of refraction is: \n", total2)
+
+
+
