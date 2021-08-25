@@ -30,5 +30,13 @@ total2=n2*sin2
 
 print("The second angle of refraction is: \n", total2)
 
+total1=round(total1, 1)
+total2=round(total2, 1)
 
+print("\n")
 
+if total1 == total2:
+    print("Snell\'s law is validated!")
+else:
+    print("Something is wrong with the inputs of sin or n. \n")
+    print("Please redo the inputs for this program.")
