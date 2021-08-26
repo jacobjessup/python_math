@@ -45,6 +45,7 @@ print("\n")
 
 if total1 == total2:
     print("Snell\'s law is validated!")
+    print("\n")
 else:
     print("Something is wrong with the inputs of sin or n. \n")
     print("Please redo the inputs for this program.")
